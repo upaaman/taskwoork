@@ -22,7 +22,7 @@ const NavBar = () => {
 
 
             <div className="flex items-center justify-center gap-2 py-3 px-5">
-                <img src="../../public/logoPng.png" className="w-12 " />
+                <img src="https://seeklogo.com/images/L/lion-leao-logo-47267D166B-seeklogo.com.png" className="w-12 " />
                 <span className="text-2xl font-bold text-blue-100">LionKing</span>
             </div>
 

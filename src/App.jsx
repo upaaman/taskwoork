@@ -1,26 +1,29 @@
+import React, { Suspense } from "react"
+
 import {  Route, Routes } from "react-router-dom"
-import Home from "./Pages/Home"
-import About from "./Pages/About"
-import Contact from "./Pages/Contact"
-import Backend from "./Pages/Backend"
-import NavBar from "./Components/NavBar"
-import Frontend from "./Pages/Frontend"
-import BESaas from "./Pages/BESaas"
-import BEPass from "./Pages/BEPass"
-import Travel from "./Pages/Travel"
-import P2P from "./Pages/P2P"
-import Reimbursement from "./Pages/Reimbursement"
-import Finance from "./Pages/Finance"
-import Hotels from "./Pages/Hotels"
-import Flights from "./Pages/Flights"
-import Services from "./Pages/Services"
-import Teams from "./Pages/Teams"
+const Home =React.lazy(()=>import("./Pages/Home")) 
+const About =React.lazy(()=>import("./Pages/About")) 
+const Contact =React.lazy(()=>import("./Pages/Contact")) 
+const Backend =React.lazy(()=>import("./Pages/Backend")) 
+const NavBar =React.lazy(()=>import("./Components/NavBar")) 
+const Frontend =React.lazy(()=>import("./Pages/Frontend")) 
+const BESaas =React.lazy(()=>import( "./Pages/BESaas"))
+const BEPass =React.lazy(()=>import("./Pages/BEPass")) 
+const Travel =React.lazy(()=>import( "./Pages/Travel"))
+const P2P =React.lazy(()=>import( "./Pages/P2P"))
+const Reimbursement =React.lazy(()=>import("./Pages/Reimbursement")) 
+const Finance =React.lazy(()=>import("./Pages/Finance")) 
+const Hotels =React.lazy(()=>import("./Pages/Hotels")) 
+const Flights =React.lazy(()=>import( "./Pages/Flights"))
+const Services =React.lazy(()=>import("./Pages/Services"))
+const Teams =React.lazy(()=>import( "./Pages/Teams"))
+import Loading from "./Components/Loading"
 
 export const App = () => {
     return (
         <div>
             <NavBar/>
-
+            <Suspense fallback={<Loading/>}>
             <Routes>
                 <Route path="/*" element={<Home />} />
                 <Route path="/about" element={<About />} />
@@ -39,6 +42,7 @@ export const App = () => {
                 <Route path="/SERVICES" element={<Services />} />
 
             </Routes>
+            </Suspense>
         </div>
     )
 }
