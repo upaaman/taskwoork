@@ -2,7 +2,7 @@
 const BEPass = () => {
     return (
         <div
-            className='h-screen w-screen flex flex-col items-center  px-10 gap-10 '>
+            className='h-screen w-full flex flex-col items-center  px-10 gap-10 '>
             <div className="mt-[100px] w-full text-[40px] flex items-center justify-center font-semibold">
                 BackEnd Development as Pass
             </div>

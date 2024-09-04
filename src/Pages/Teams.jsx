@@ -2,13 +2,13 @@
 const Teams = () => {
     return (
         <div
-            className='h-screen w-screen flex flex-col items-center  px-10 gap-10 '>
+            className=' w-full flex flex-col items-center  px-10 gap-10 '>
             <div className="mt-[100px] w-full text-[40px] flex items-center justify-center font-semibold">
                 Teams
             </div>
             <div className="flex flex-col lg:flex-row  gap-10">
-            <img className="w-[450px] h-[200px] " src="https://t4.ftcdn.net/jpg/04/60/07/71/240_F_460077135_4MB32u4fUP5tKdqFTFTEdj0S9rjkaCFI.jpg" alt="" />
-                <p>Backend development is a Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus urna a turpis porttitor, et tincidunt libero facilisis. Nunc vel aliquam lacus. Morbi a elit tristique, tristique lacus sit amet, aliquam lacus. Nulla quis ligula rhoncus, hendrerit lacus eu, aliquet massa. Proin hendrerit nisi enim, ut pharetra neque lacinia et. Etiam vitae odio ligula. Donec cursus nulla augue, ut tempor felis lacinia et. Maecenas in quam sagittis, dignissim metus sit amet, imperdiet urna.
+            <img className="md:w-[450px] w-[200px]  h-[200px] " src="https://t4.ftcdn.net/jpg/04/60/07/71/240_F_460077135_4MB32u4fUP5tKdqFTFTEdj0S9rjkaCFI.jpg" alt="" />
+                <p className="w-full bg-red-200 text-wrap">Backend development is a Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus urna a turpis porttitor, et tincidunt libero facilisis. Nunc vel aliquam lacus. Morbi a elit tristique, tristique lacus sit amet, aliquam lacus. Nulla quis ligula rhoncus, hendrerit lacus eu, aliquet massa. Proin hendrerit nisi enim, ut pharetra neque lacinia et. Etiam vitae odio ligula. Donec cursus nulla augue, ut tempor felis lacinia et. Maecenas in quam sagittis, dignissim metus sit amet, imperdiet urna.
 
 Pellentesque auctor risus quis lacus volutpat fringilla. Sed scelerisque est ut cursus elementum. Cras vel sapien vitae metus facilisis fermentum a eget arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla neque elit, iaculis sit amet vulputate at, faucibus id eros. Duis malesuada, justo vel dignissim suscipit, libero ligula interdum massa, hendrerit aliquam turpis ipsum nec nisl. Sed in tempor nisl. Aliquam eros turpis, bibendum eu ipsum ac, gravida venenatis justo. Vivamus molestie ultricies mollis. Nulla facilisi. Cras ac dignissim lorem. Vestibulum hendrerit diam sit amet tellus fermentum imperdiet. Donec rhoncus laoreet lacus, sit amet tincidunt diam rutrum sit amet. Proin quis egestas lectus.
 

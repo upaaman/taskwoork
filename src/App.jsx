@@ -21,7 +21,7 @@ import Loading from "./Components/Loading"
 
 export const App = () => {
     return (
-        <div>
+        <div className="overflow-hidden">
             <NavBar/>
             <Suspense fallback={<Loading/>}>
             <Routes>

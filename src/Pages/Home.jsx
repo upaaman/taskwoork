@@ -1,15 +1,14 @@
 
-
 const Home = () => {
   return (
-    <div
-    className='h-screen w-screen flex flex-col items-center  px-10 gap-10 '>
-    <div className="mt-[100px] w-full text-[40px] flex items-center justify-center font-semibold">
-          Home Page
-    </div>
-    <div className="flex flex-col lg:flex-row  gap-10">
-        <img className="w-[450px] h-[200px]" src="https://t4.ftcdn.net/jpg/04/60/07/71/240_F_460077135_4MB32u4fUP5tKdqFTFTEdj0S9rjkaCFI.jpg" alt="" />
-        <p> is a Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus urna a turpis porttitor, et tincidunt libero facilisis. Nunc vel aliquam lacus. Morbi a elit tristique, tristique lacus sit amet, aliquam lacus. Nulla quis ligula rhoncus, hendrerit lacus eu, aliquet massa. Proin hendrerit nisi enim, ut pharetra neque lacinia et. Etiam vitae odio ligula. Donec cursus nulla augue, ut tempor felis lacinia et. Maecenas in quam sagittis, dignissim metus sit amet, imperdiet urna.
+      <div
+          className='h-screen w-screen flex flex-col items-center  px-10 gap-10 '>
+          <div className="mt-[100px] w-full text-[40px] flex items-center justify-center font-semibold">
+            Home Page
+          </div>
+          <div className="flex flex-col lg:flex-row  gap-10">
+          <img className="w-[450px] h-[200px]" src="https://t4.ftcdn.net/jpg/04/60/07/71/240_F_460077135_4MB32u4fUP5tKdqFTFTEdj0S9rjkaCFI.jpg" alt="" />
+              <p> is a Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus urna a turpis porttitor, et tincidunt libero facilisis. Nunc vel aliquam lacus. Morbi a elit tristique, tristique lacus sit amet, aliquam lacus. Nulla quis ligula rhoncus, hendrerit lacus eu, aliquet massa. Proin hendrerit nisi enim, ut pharetra neque lacinia et. Etiam vitae odio ligula. Donec cursus nulla augue, ut tempor felis lacinia et. Maecenas in quam sagittis, dignissim metus sit amet, imperdiet urna.
 
 Pellentesque auctor risus quis lacus volutpat fringilla. Sed scelerisque est ut cursus elementum. Cras vel sapien vitae metus facilisis fermentum a eget arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla neque elit, iaculis sit amet vulputate at, faucibus id eros. Duis malesuada, justo vel dignissim suscipit, libero ligula interdum massa, hendrerit aliquam turpis ipsum nec nisl. Sed in tempor nisl. Aliquam eros turpis, bibendum eu ipsum ac, gravida venenatis justo. Vivamus molestie ultricies mollis. Nulla facilisi. Cras ac dignissim lorem. Vestibulum hendrerit diam sit amet tellus fermentum imperdiet. Donec rhoncus laoreet lacus, sit amet tincidunt diam rutrum sit amet. Proin quis egestas lectus.
 
@@ -602,10 +601,10 @@ Morbi dolor ligula, bibendum non efficitur vitae, eleifend ac erat. Interdum et 
 Praesent non porta enim. Cras id ex non velit interdum vehicula. Nullam lacinia nulla et hendrerit eleifend. Proin sollicitudin erat ut varius auctor. Aenean vitae magna volutpat, viverra sapien id, scelerisque orci. Cras mattis justo leo, nec sollicitudin enim congue at. Nullam suscipit imperdiet mauris, a tempus orci vestibulum rutrum. Duis mattis euismod sodales.
 
 Morbi dolor ligula, bibendum non efficitur vitae, eleifend ac erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer non ex venenatis, feugiat augue sit amet, aliquam orci. Mauris ligula diam, lobortis sed ullamcorper n of modern software engineering that focuses on the server side of web applications. Unlike frontend development, which deals with the visual and interactive aspects of a website, backend development is concerned with the behind-the-scenes processes that ensure the smooth operation, security, and efficiency of an application. This includes managing databases, ensuring server performance, implementing business logic, and handling user authentication. The backend is the backbone of any web application, making it an essential component in the development lifecycle.
-    
-            At its core, backend development revolves around creating, managing, and optimizing server-side logic. This includes writing server-side code that interacts with databases, processes requests, and returns the appropriate responses to client-side applications. Backend developers work with various programming languages, frameworks, and tools to build robust and scalable applications. Popular programming languages used in backend development include Python, Java, Ruby, PHP, and JavaScript (specifically Node.js). Each of these languages has its strengths and is chosen based on the specific needs of the project.
-    
-            One of the Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus urna a turpis porttitor, et tincidunt libero facilisis. Nunc vel aliquam lacus. Morbi a elit tristique, tristique lacus sit amet, aliquam lacus. Nulla quis ligula rhoncus, hendrerit lacus eu, aliquet massa. Proin hendrerit nisi enim, ut pharetra neque lacinia et. Etiam vitae odio ligula. Donec cursus nulla augue, ut tempor felis lacinia et. Maecenas in quam sagittis, dignissim metus sit amet, imperdiet urna.
+
+                  At its core, backend development revolves around creating, managing, and optimizing server-side logic. This includes writing server-side code that interacts with databases, processes requests, and returns the appropriate responses to client-side applications. Backend developers work with various programming languages, frameworks, and tools to build robust and scalable applications. Popular programming languages used in backend development include Python, Java, Ruby, PHP, and JavaScript (specifically Node.js). Each of these languages has its strengths and is chosen based on the specific needs of the project.
+
+                  One of the Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus urna a turpis porttitor, et tincidunt libero facilisis. Nunc vel aliquam lacus. Morbi a elit tristique, tristique lacus sit amet, aliquam lacus. Nulla quis ligula rhoncus, hendrerit lacus eu, aliquet massa. Proin hendrerit nisi enim, ut pharetra neque lacinia et. Etiam vitae odio ligula. Donec cursus nulla augue, ut tempor felis lacinia et. Maecenas in quam sagittis, dignissim metus sit amet, imperdiet urna.
 
 Pellentesque auctor risus quis lacus volutpat fringilla. Sed scelerisque est ut cursus elementum. Cras vel sapien vitae metus facilisis fermentum a eget arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla neque elit, iaculis sit amet vulputate at, faucibus id eros. Duis malesuada, justo vel dignissim suscipit, libero ligula interdum massa, hendrerit aliquam turpis ipsum nec nisl. Sed in tempor nisl. Aliquam eros turpis, bibendum eu ipsum ac, gravida venenatis justo. Vivamus molestie ultricies mollis. Nulla facilisi. Cras ac dignissim lorem. Vestibulum hendrerit diam sit amet tellus fermentum imperdiet. Donec rhoncus laoreet lacus, sit amet tincidunt diam rutrum sit amet. Proin quis egestas lectus.
 
@@ -1198,10 +1197,10 @@ Morbi dolor ligula, bibendum non efficitur vitae, eleifend ac erat. Interdum et 
 Praesent non porta enim. Cras id ex non velit interdum vehicula. Nullam lacinia nulla et hendrerit eleifend. Proin sollicitudin erat ut varius auctor. Aenean vitae magna volutpat, viverra sapien id, scelerisque orci. Cras mattis justo leo, nec sollicitudin enim congue at. Nullam suscipit imperdiet mauris, a tempus orci vestibulum rutrum. Duis mattis euismod sodales.
 
 Morbi dolor ligula, bibendum non efficitur vitae, eleifend ac erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer non ex venenatis, feugiat augue sit amet, aliquam orci. Mauris ligula diam, lobortis sed ullamcorper n of a backend developer is to manage and interact with databases. Databases are essential for storing, retrieving, and managing data in web applications. There are two main types of databases: relational databases and non-relational (NoSQL) databases. Relational databases, such as MySQL, PostgreSQL, and SQLite, store data in tables with predefined schemas, which makes them ideal for applications with structured data and complex relationships. On the other hand, NoSQL databases like MongoDB, Cassandra, and Redis are designed to handle large volumes of unstructured or semi-structured data and offer greater flexibility in terms of data storage.
-    
-            Backend developers must design and optimize database schemas, write efficient queries, and ensure that data is stored and retrieved quickly and securely.</p>
-    </div>
-    </div>
+
+                  Backend developers must design and optimize database schemas, write efficient queries, and ensure that data is stored and retrieved quickly and securely.</p>
+          </div>
+      </div>
   )
 }
 
