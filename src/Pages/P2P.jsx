@@ -8,7 +8,7 @@ const P2P = () => {
               P2P
             </div>
             <div className="flex flex-col lg:flex-row  gap-10">
-                <img className="w-[450px] h-[200px]" src="https://t4.ftcdn.net/jpg/04/60/07/71/240_F_460077135_4MB32u4fUP5tKdqFTFTEdj0S9rjkaCFI.jpg" alt="" />
+                <img className="md:w-[450px] md:h-[450px] w-[300px] h-[300px]" src="https://t4.ftcdn.net/jpg/04/60/07/71/240_F_460077135_4MB32u4fUP5tKdqFTFTEdj0S9rjkaCFI.jpg" alt="" />
                 <p>Backend development is a Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus urna a turpis porttitor, et tincidunt libero facilisis. Nunc vel aliquam lacus. Morbi a elit tristique, tristique lacus sit amet, aliquam lacus. Nulla quis ligula rhoncus, hendrerit lacus eu, aliquet massa. Proin hendrerit nisi enim, ut pharetra neque lacinia et. Etiam vitae odio ligula. Donec cursus nulla augue, ut tempor felis lacinia et. Maecenas in quam sagittis, dignissim metus sit amet, imperdiet urna.
 
 Pellentesque auctor risus quis lacus volutpat fringilla. Sed scelerisque est ut cursus elementum. Cras vel sapien vitae metus facilisis fermentum a eget arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla neque elit, iaculis sit amet vulputate at, faucibus id eros. Duis malesuada, justo vel dignissim suscipit, libero ligula interdum massa, hendrerit aliquam turpis ipsum nec nisl. Sed in tempor nisl. Aliquam eros turpis, bibendum eu ipsum ac, gravida venenatis justo. Vivamus molestie ultricies mollis. Nulla facilisi. Cras ac dignissim lorem. Vestibulum hendrerit diam sit amet tellus fermentum imperdiet. Donec rhoncus laoreet lacus, sit amet tincidunt diam rutrum sit amet. Proin quis egestas lectus.
